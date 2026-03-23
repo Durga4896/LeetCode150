@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MergeSortedArray{
+public class O11_MergeSortedArray{
     public static void main(String[] merge){
         int[] nums1 = {1,2,3,0,0,0};
         int m = 3;
