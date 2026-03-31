@@ -12,8 +12,11 @@ public class O14_LongestCommonPrefix {
 
         int index = 0;
 
-        while(index < str1.length() - 1 && str1.charAt(index) == str2.charAt(index)){
-            index++;
+        while(index < str1.length() && index < str2.length()){
+            if(str1.charAt(index) == str2.charAt(index))
+                index++;
+            else
+                break;
         }
         System.out.println(str1.substring(0, index));
     }
