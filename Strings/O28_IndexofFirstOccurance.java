@@ -1,3 +1,4 @@
+package Strings;
 public class O28_IndexofFirstOccurance {
     public static void main(String[] dspy){
         String haystack = "DurgaSaiPrasad";
