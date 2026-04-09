@@ -10,7 +10,7 @@ public class O01_TwoSum {
             if(ts.containsKey(nums[i])){
                 System.out.println("["+ts.get(nums[i])+","+i+"]");
             }else{
-                ts.put(target - nums[i], i);
+                ts.put(target-nums[i], i);
             }
         }
 
